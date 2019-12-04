@@ -37,7 +37,7 @@ build_script:
 # - set PYTHONPATH=%PYTHONPATH%;..\install
 # - C:\Python36-x64\python.exe -m pytest ..\python
 
-after_test: off # Default to no post-testing deployment
+# after_test: off # Default to no post-testing deployment
 
 deploy_script:
   - cd %APPVEYOR_BUILD_FOLDER%
